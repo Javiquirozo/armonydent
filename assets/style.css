@@ -1,0 +1,186 @@
+/* 
+paleta colores:
+rgb(17,15, 49)  morado oscuro 
+rgb(92, 78, 138) morado claro 
+rgb(226, 248, 253) celeste claro
+rgb(180, 252, 260) calipso
+*/
+
+@font-face {
+    font-family: "Costigue";
+    src: url("./fonts/Costigue.ttf");
+}
+
+@font-face {
+    font-family: "Avenir";
+    src: url(./fonts/Avenir.ttc);
+}
+
+@font-face {
+    font-family: "Bodoni";
+    src: url(./fonts/Bodoni\ 72.ttc);
+}
+
+@font-face {
+    font-family: "MyriadPro-Regular";
+    src: url(./fonts/MyriadPro-Regular.otf);
+}
+
+
+body {
+    background-color: rgb(164,194,79) ;
+    color: rgb(92, 78, 138);
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    font-family: "Avenir";
+}
+
+
+.navbar-container {
+    display: flex;
+}
+.navbar-list {
+    padding-top: 3rem;
+    padding-left: 3rem;
+    padding-right: 1.5rem;
+}
+
+.navbar-logo {
+    width: 270px;
+    height: 110px;
+    padding-top: 2rem;
+    padding-left: 3rem;
+}
+
+.nav-item {
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    color: rgb(92, 78, 138);
+}
+
+.nav-link:hover {
+    background-color: rgb(226, 248, 253);
+    border-radius: 30px;
+}
+
+.clinic-presentation {
+    padding-top: 10em;
+    padding-left: 4rem;
+    padding-right: 3rem;
+    text-align: start;
+}
+
+.clinical-intro{
+    color: rgb(92, 78, 138);
+    padding-bottom: 3rem;
+    padding-right: 3rem;
+}
+
+.dra-presentation-tittle {
+    font-size: 2.5rem;
+    font-family: Costigue;
+}
+.dra-presentation-intro {
+    font-size: 1.6rem;
+    padding-top: 1.5rem;
+}
+
+h4 {
+    font-size: 1.2rem;
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+}
+.btn-contact-me {
+    color: rgb(92, 78, 138);
+    background-color: rgb(226, 248, 253);
+    width: 10rem;
+    height: 4rem;
+    border-radius: 40px;
+    font-size: 1.2rem;
+    border: none;
+
+}
+
+.btn-contact-me:hover {
+    background-color: rgb(180, 252, 260);
+}
+
+.img-dra {
+    width: 30rem;
+    height: auto;
+    border-radius: 0rem 6rem;
+}
+
+.our-services-tittle{
+    font-family: Costigue; 
+    font-size: 4rem; 
+    text-align: center; 
+    padding-top: 5rem;
+    color: rgb(92, 78, 138);
+}
+
+#dental-services{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+}
+
+.services {
+    padding-top: 1rem;
+}
+
+.card {
+    background-color: white;
+    color: rgb(92, 78, 138);
+    border: 0rem;
+}
+
+.card-header {
+    font-weight: bold ;
+    font-size: x-large;
+}
+
+.card-text {
+    padding-bottom: 2rem;
+}
+
+.btn-primary {
+    color: rgb(92, 78, 138);
+    background-color: rgb(226, 248, 253);
+    width: 9rem;
+    height: auto;
+    border-radius: 40px;
+    font-size: 1.2rem;
+    border: none;
+
+}
+
+.btn-primary:hover {
+    background-color: rgb(180, 252, 260);
+    color: black;
+}
+
+#slice-section {
+    padding-left: 2.7rem;
+    padding-right: 2.7rem;
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+}
+
+.footer {
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+    text-align: center;
+}
+
+.footer-logo {
+    padding-bottom: 1rem;
+}
+
+a:hover {
+    color: rgb(180, 252, 260);
+  }
